@@ -1,0 +1,13 @@
+body{
+  background-color: #D9DBD5;
+}
+.TopBar{
+  background-color: #009688;
+}
+
+.list-group-item{
+  background-color: #E5DDD5;
+}
+.active{
+  background-color: #009688 !important;
+}
