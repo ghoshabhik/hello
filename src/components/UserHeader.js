@@ -4,7 +4,7 @@ export const UserHeader = ({currentUser}) => {
     return (
         <div className="my-3">
             Welcome <strong className="text-success">{currentUser}</strong>{" "}
-            <Link to='/'>logoff</Link>
+            <Link to='/hello'>logoff</Link>
         </div>
     )
 }

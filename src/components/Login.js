@@ -65,7 +65,8 @@ export const Login = ( {setUser} ) => {
     return (
         <div className="d-flex justify-content-center" >
             <div className="border border-success rounded m-5 p-5  bg-light">
-                <h4 className="m-1">Please create/use an username to login</h4>
+                <div className="d-flex justify-content-center" style={{fontSize:"80px"}}>Hello</div>
+                <h5 className="m-1">Please login/register with an username</h5>
                 <div>
                     <input className="m-1" 
                         type="text" 
