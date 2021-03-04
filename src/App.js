@@ -21,7 +21,7 @@ function App() {
 
   return (
     <Router >
-      <Route path='/' exact render = { (props) => (
+      <Route path='/hello' exact render = { (props) => (
           <>
             <Login setUser={setUser}/>
             
@@ -29,7 +29,7 @@ function App() {
         ) }
       />
 
-      <Route path='/home' render = {(props) => (
+      <Route path='/hello/home' render = {(props) => (
           <>
           <div className="App">
             <div className="container" style={{ height: "100vh"}} >
